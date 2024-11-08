@@ -3,12 +3,12 @@ import logo from '../assets/images/Group 8954.png'
 const About = () => {
   return (
     <div className="max-w-6xl mx-auto py-16 px-6">
-    {/* Main Heading */}
+   
     <h2 className="text-2xl font-semibold text-center mb-12">
       The platform assists city managers on multiple fronts
     </h2>
 
-    {/* Row 1: Two blocks side by side */}
+ 
     <div className="grid grid-cols-1 md:grid-cols-2  mb-8">
       <div className="bg-gray-50 p-6 rounded-lg shadow-md text-center">
         <img src={logo} alt="Icon" className="mx-auto mb-4"/>
@@ -20,7 +20,7 @@ const About = () => {
       </div>
     </div>
 
-    {/* Row 2: Two blocks, one left-aligned, one centered */}
+ 
     <div className="grid grid-cols-1 md:grid-cols-3  mb-8">
       <div className="bg-gray-50 p-6 rounded-lg shadow-md text-center md:col-span-1">
         <img src={logo} alt="Icon" className="mx-auto mb-4"/>
@@ -32,7 +32,7 @@ const About = () => {
       </div>
     </div>
 
-    {/* Row 3: Two blocks, one left-aligned and one right-aligned */}
+
     <div className="grid grid-cols-1 md:grid-cols-2 ">
       <div className="bg-gray-50 p-6 rounded-lg shadow-md text-center md:col-span-1">
         <img src={logo} alt="Icon" className="mx-auto mb-4"/>
